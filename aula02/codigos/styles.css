@@ -1,0 +1,72 @@
+body {
+            padding: 20px;
+            background-color: #aad4f7; /** cor do fundo do site **/
+        }
+
+h1 {
+    font-family:"Times New Roman", Times, serif; /** Define o tipo de fonte**/
+    font-size: 40px; /** tamanho da fonte **/
+    color:black;
+    background-color: #ffffff; /** cor do fundo do site **/
+    border-width: 3px;         /* Espessura */
+    border-style: dashed;      /* Tipo: tracejada */
+    border-color: rgb(0, 255, 42);        /* Cor: vermelha */
+    border-radius: 8px;        /* Bordas arredondadas */
+    padding: 10px;
+}
+
+h2 { 
+    font-family: Arial, Helvetica, sans-serif; /** Define o tipo de fonte**/
+    font-size: 20px; /** tamanho da fonte **/
+    color:black;
+    background-color: #aad4f7; /** cor do fundo do site **/
+    border-width: 3px;         /* Espessura */
+    border-style: double;      /* Tipo: tracejada */
+    border-color: rgb(38, 0, 255);        /* Cor: vermelha */
+    border-radius: 8px;        /* Bordas arredondadas */
+    padding: 10px;
+}
+
+p.tema {
+   font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: rgb(136, 9, 255);
+    border-width: 3px;         /* Espessura */
+    border-style: dotted;      /* Tipo: tracejada */
+    border-color: rgb(0, 0, 0);        /* Cor: vermelha */
+    border-radius: 8px;        /* Bordas arredondadas */
+    padding: 10px;
+
+}
+
+div.caixa {
+    color:#ff0000;
+    font-size: 20px; /** tamanho da fonte **/
+    border-width: 3px;         /* Espessura */
+    border-style: groove;      /* Tipo: tracejada */
+    border-color: rgb(255, 251, 0);        /* Cor: vermelha */
+    border-radius: 8px;        /* Bordas arredondadas */
+    padding: 10px;
+
+}
+
+
+#footer {
+    color:rgb(0, 0, 0);
+    border-width: 3px;         /* Espessura */
+    border-style: double;      /* Tipo: tracejada */
+    border-color: rgb(255, 0, 0);        /* Cor: vermelha */    
+    border-radius: 8px;        /* Bordas arredondadas */
+    padding: 10px;
+    text-align: right;
+    margin-top: 460px;
+
+}
+
+p.tema2 {
+    border-width: 3px;         /* Espessura */
+    border-style: double;      /* Tipo: tracejada */
+    border-color: rgb(45, 0, 243);        /* Cor: vermelha */
+    border-radius: 8px;        /* Bordas arredondadas */
+    padding: 10px;/
+}
