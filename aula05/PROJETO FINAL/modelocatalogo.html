@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Estrutura HTML5 com Bootstrap e Font Awesome</title>
+    <meta name="description" content="Uma página de exemplo para demonstrar a estrutura básica do HTML5 com Bootstrap e Font Awesome.">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- Estilos personalizados (opcional) -->
+    <style>
+
+        header {
+            border-bottom: solid 3px black;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            border-top: solid 3px black;
+            margin-top: 10px;
+        }
+
+        .caixa {
+            border-style: solid;
+            border-width: 3px;
+            border-color: black;
+            
+        }
+
+        .busca {
+            border-style: solid;
+            border-width: 1px;
+            border-color: white;
+            background-color: white;
+            
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        hr { color: grey;}
+
+        .icon {
+        margin-right: 10px; /* Adds 10px space to the right of each icon */
+    }
+     
+
+    .tabela_simples{
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
+        border-style: dashed;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: rgb(0, 0, 0);
+        border-width: 2px;
+       }
+
+    .tabela_simples thead th{
+        background-color:rgb(0, 0, 0);
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
+        border-style: solid;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: rgb(0, 0, 0);
+        border-width: 2px;
+        color: white
+       }
+
+       
+    .tabela_zebrada tbody tr:nth-child(odd){
+        background-color: rgb(223, 223, 223); 
+    
+       }
+
+    .tabela_zebrada tbody tr:nth-child(even){
+
+       background-color: rgb(182, 182, 182);
+
+       }
+
+    .tabela_simples tbody tr{
+        background-color:rgb(223, 223, 223);
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
+        border-style:solid;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: rgb(223, 223, 223);
+        border-width: 2px;
+       }
+       
+       tr:hover {
+       background-color: rgb(0, 0, 0);
+       color: white;
+       }
+
+
+       h4{
+        font-size: 20px;
+        text-align: left;
+       }
+
+       .inthecontainer{
+        text-align: left;
+       }
+
+
+    </style>
+</head>
+<body>
+    <!--Cabeçalho da página-->
+    <header class="bg-black text-white">
+            <div class="row">
+                <div class="col-md-2">
+                     <img src="imagens/perfume.png" style="height:100px; width:100px; margin-left:40px;">
+                     <p style="margin-left: 40px;">Perfumaria <br> Problemas Mentais</p>
+                </div>
+                <div class="col-md-7">
+                    <br>
+                    <p class="busca">Campo de Busca</p>
+                </div>
+                <div class= "col-md-3">
+                    <p><i class="bi bi-bag icon"></i> <i class="bi bi-heart icon"></i> <i class="bi bi-gem icon"></i> </p>
+                </div>
+                    
+            </div>
+            
+            </div>
+
+    </header>
+    <!--Fim: Cabeçalho da página-->
+
+    <!--Área Principal-->
+    <main>
+        <h1 style="font-size:30px" class="text-center"> <b>Catálogo de Perfumes Inusitados</b> </h1>
+        <table class = "tabela_simples tabela_zebrada">  
+            <thead>       
+              <tr>
+                <th style="width:20%">Foto</th>
+                <th style="width:70%">Descrição</th>
+                <th>Preço</th>
+              </tr>
+            </thead>
+            <tbody>   
+              <tr>
+                <td><img src="imagens/secret.jpg" style="height:100px; width:100px;"></td>        
+                <td><h4>Secretions Magnifique</h4>
+                <p class="inthecontainer">Perfume Unissex - Full-sized 50ml</p></td>
+                <td>R$ 660,00</td>
+              </tr>
+              <tr>        
+                <td><img src="imagens/inexcus.jpg" style="height:100px; width:100px;"></td>
+                <td><h4>Inexcusable Evil</h4>
+                    <p class="inthecontainer">Perfume Unissex - Decant 5ml</p></td>
+                <td>R$ 369,90</td>
+              </tr>
+              <tr> 
+                <td><img src="imagens/nosferatu.webp" style="height:100px; width:100px;"></td>       
+                <td><h4>Nosferatu</h4>
+                    <p class="inthecontainer">Perfume Unissex - Full-sized 30ml</p></td>
+                <td>R$ 662,00</td>
+              </tr>
+              <tr> 
+                <td><img src="imagens/weedfume.jpg" style="height:100px; width:100px;"></td>       
+                <td><h4>Sweet Leaf</h4>
+                    <p class="inthecontainer">Perfume Unissex - Full-sized 100ml</p></td>
+                <td>R$ 943.40</td>
+              </tr>
+              <tr> 
+                <td><img src="imagens/sorci.webp" style="height:100px; width:100px;"></td>       
+                <td><h4>But Not Today</h4>
+                    <p class="inthecontainer">Perfume Unissex - Full-sized 100ml</p></td>
+                <td>R$ 1,383.65</td>
+              </tr>
+              <tr> 
+                <td><img src="imagens/darknean.webp" style="height:100px; width:100px;"></td>       
+                <td><h4>Dark Neandertal</h4>
+                    <p class="inthecontainer">Perfume Unissex - Full-sized 90ml</p></td>
+                <td>R$ 2,137.02</td>
+              </tr>
+              <tr> 
+                <td><img src="imagens/asprain.webp" style="height:100px; width:100px;"></td>       
+                <td><h4>Asphalt Rainbow</h4>
+                    <p class="inthecontainer">Perfume Unissex - Full-sized 30ml</p></td>
+                <td>R$ 529.63</td>
+              </tr>
+              <tr> 
+                <td><img src="imagens/eaudemac.webp" style="height:100px; width:100px;"></td>       
+                <td><h4>Eau de Mac Unboxing</h4>
+                    <p class="inthecontainer">Perfume Unissex - Full-sized 3.1415926ml</p></td>
+                <td>R$ 699,90</td>
+              </tr>
+              <tr> 
+                <td><img src="imagens/cthulhu.avif" style="height:100px; width:100px;"></td>       
+                <td><h4>The Malignant Dreams of Cthulhu in Love</h4>
+                    <p class="inthecontainer">Perfume Unissex - Full-sized 40ml</p></td>
+                <td>R$ 148.34</td>
+              </tr>
+              <tr> 
+                <td><img src="imagens/mismed.webp" style="height:100px; width:100px;"></td>       
+                <td><h4>Missisippi Medicine</h4>
+                    <p class="inthecontainer">Perfume Unissex - Full-sized 50ml</p></td>
+                <td>R$ 1,112.58</td>
+              </tr>
+            </tbody>
+            <tfoot style="border-width: 2px; border-style: solid; border-color:rgb(223, 223, 223); background-color:rgb(223, 223, 223);">
+                <tr>
+                  <td colspan="3" style="font-size:15px;">2025 - Perfumaria Problemas Mentais. Todos os direitos reservados.</td>
+                </tr>
+              </tfoot>
+          </table>
+    </main>
+
+    <footer class="bg-black text-white">
+        <div class="container py-4">
+            <!--1a linha-->
+            <div class="row">
+                <!--1a coluna-->
+                <div class="col-md-3 caixa">
+                    <nav class="nav flex-column">
+                                <a class="nav-link text-white py-1" href="politica_privacidade.html">Política de Privacidade</a>
+                                <a class="nav-link text-white py-1" href="fale_conosco.html">Fale Conosco</a>
+                                <a class="nav-link text-white py-1" href="suporte.html">Suporte</a>
+                    </nav>
+                </div>
+                <!--final da 1a coluna-->
+                
+                <!--2a coluna-->
+                <div class="col-md-3 caixa">
+                    <nav class="nav flex-column">
+                            <a class="nav-link text-white py-1" href="sobrenos.html">Quem Somos Nós</a>
+                            <a class="nav-link text-white py-1" href="termos_condicoes.html">Termos e Condições</a>
+                    </nav>
+                   
+                </div>
+                <!--final da 2a coluna-->
+
+                <!--3a coluna-->
+                <div class="col-md-6 caixa">
+                    <p>Redes Sociais: </p>
+                    <p> <i class="bi bi-instagram"></i> 
+                        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.facebook.com/&ved=2ahUKEwjszqzx6NGPAxXgB7kGHZJ0FRsQFnoECBsQAQ&usg=AOvVaw2q27ov2cpCynr72DmuSqEz"><i class="bi bi-facebook"></i></a>
+                        <i class="bi bi-twitter"></i>
+                        </i><i class="bi bi-github">
+                        </i><i class="bi bi-linkedin"></i>
+                        </p>
+                        
+                   
+
+                </div>
+                <!--final da 3a coluna-->
+                
+                </div>
+            <div class="row text-end">
+                <p>&copy; 2025 SENAC RJ</p>
+            </div>
+            </div>
+        </div>
+        <!--final do container-->
+        <!--menu do rodapé-->
+    </footer>
+    <!-- Bootstrap JS e dependências -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
